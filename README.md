@@ -1,3 +1,4 @@
+Number Guessing Game
 import random
 import time
 print("sayi tahmin oyununa hoşgeldin!z 1-100 arasında bir sayı tahmin edin")
