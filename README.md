@@ -1,10 +1,12 @@
-Number Guessing Game
-import random
-import time
-print("sayi tahmin oyununa hoşgeldin!z 1-100 arasında bir sayı tahmin edin")
-sayi = random.randint(1,100)
-tahmin_hakki = 5 
-while True:
+Number Guessing Game   
+
+    import random
+    import time
+    print("sayi tahmin oyununa hoşgeldin!z 1-100 arasında bir sayı tahmin edin")
+    sayi = random.randint(1,100)
+    tahmin_hakki = 5 
+ 
+    while True:
     tahmin = int(input("tahmininiz: "))
 
     if tahmin == sayi:
