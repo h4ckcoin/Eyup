@@ -9,24 +9,24 @@
     while True:
     tahmin = int(input("tahmininiz: "))
 
-     if tahmin == sayi:
+    if tahmin == sayi:
        print("sayı sorgulanıyor... ")
        time.sleep(1)
        print("tebrlikler! Doğru Bildiniz")
        break
     elif tahmin > sayi:
-    print("sayi sorgulanıyor... ")
-    time.sleep(1)
-    tahmin_hakki-=1
-    print("Daha küçük bir sayı giriniz")
-    print("kalan tahmin hakkı: ",tahmin_hakki)
+        print("sayi sorgulanıyor... ")
+        time.sleep(1)
+        tahmin_hakki-=1
+        print("Daha küçük bir sayı giriniz")
+        print("kalan tahmin hakkı: ",tahmin_hakki)
     else:
-    print("sayı sorgulanıyor... ")
-    time.sleep(1)
-    tahmin_hakki -=1
-    print("daha büyük bir sayı giriniz")
-    print("kalan tahmin hakkı: ", tahmin_hakki)
+        print("sayı sorgulanıyor... ")
+        time.sleep(1)
+        tahmin_hakki -=1
+        print("daha büyük bir sayı giriniz")
+        print("kalan tahmin hakkı: ", tahmin_hakki)
     if tahmin_hakki == 0:
-    print("tahmin hakkınız bitmiştir")
-    print("bilgisayarın tahmini",sayi)
-    break
+        print("tahmin hakkınız bitmiştir")
+        print("bilgisayarın tahmini",sayi)
+        break
